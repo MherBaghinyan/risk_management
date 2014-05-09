@@ -1,0 +1,1303 @@
+/* 4th css folder */
+
+/*.content_block1, .content_block2, .content_block3 {*/
+/*background: url('../../images/4/content_bg.jpg') no-repeat;*/
+/*}*/
+
+.content_black_border {
+    border-top: 6px solid #000;
+}
+
+.shadowRightPanel{
+    -webkit-box-shadow:  10px 2px 10px 2px rgba(0, 0, 0, 0.7);
+    box-shadow:  10px 2px 10px 2px rgba(0, 0, 0, 0.7);
+}
+
+.login_text {
+    font-size: 69px;
+    line-height: 85px;
+}
+
+.topup_text_top {
+    top:30px;
+}
+
+.login_placeholders {
+    height: 150px !important;
+    line-height: 100% !important;
+}
+
+.password_placeholders {
+    height: 130px !important;
+    line-height: 100% !important;
+}
+
+.inpBottomMiddle{
+    background-image: url("../../images/4/input_bottom_middle.png");
+}
+
+.inpTopMiddle{
+    background-image: url("../../images/4/input_top_middle.png");
+}
+
+.inpMiddleMiddle{
+    background-image: url("../../images/4/input_middle_middle.png");
+}
+
+.inpSingleMiddle{
+    background-image: url("../../images/4/input_single_middle.png");
+}
+
+.contentOrange{
+    background-image: url("../../images/4/content_bg.jpg");
+}
+
+.dwwr{
+    padding: 0 4px;
+}
+
+.register_link, .register_link_sep, .forgot_pass_link {
+    font-size: 44px;
+}
+
+#payment span.inpMiddle div span {
+    font-size: 50px;
+}
+
+#payment span.inpMiddle div span font {
+    font-size: 50px;
+}
+
+.fb_btn_mid, .hyves_btn_mid {
+    font-size: 48px;
+    line-height: 175px;
+}
+
+#draw_counter{
+    padding-top: 31px;
+}
+
+.content_grey_header {
+    background: url('../../images/4/grey_header.png');
+    height: 424px;
+    position: absolute;
+    float: left;
+    width: 100%;
+    border-top: solid 1px black;
+}
+
+.inpLeft input, .inpMiddle input, .inpRight input, .inpMiddle select {
+    font-size: 61px;
+}
+
+.input-checkbox{
+    font-size: 61px;
+}
+
+.back_button_container {
+    padding-left: 4px;
+    top: 25px;
+}
+
+.right_button_container {
+    padding-right: 50px;
+    top: 25px;
+}
+
+.user_data_block {
+    margin-top: -51px;
+}
+
+.payment_data_block {
+    margin-top: 70px;
+}
+
+#loginButtonContainer {
+    margin-top: 40px;
+}
+
+#receivedGiftButtonContainer {
+    margin-top: 40px;;
+    float: left;
+}
+
+.register_block {
+    /* margin-top: 20px; */
+    /* margin-bottom: 32px; */
+    padding: 25px !important;
+}
+
+/* ckeckbox style */
+.ibutton-container {
+    position: relative;
+    height: 106px;
+    cursor: pointer;
+    overflow: hidden;
+    /* set max width to that of sprite */
+    max-width: 400px;
+    /* prevent text selection */
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -moz-user-focus: ignore;
+    -moz-user-input: disabled;
+    /* set default width based on ON/OFF labels */
+    width: 262px;
+}
+
+.ibutton-container input {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* hide the element */
+    filter: alpha(opacity = 0);
+    -moz-opacity: 0.0;
+    opacity: 0.0;
+
+    /* allow checking of input if visible */
+    -moz-user-input: enabled !important;
+}
+
+.ibutton-handle {
+    display: block;
+    height: 106px;
+    cursor: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    background: transparent url(../../images/4/on_off.png) no-repeat scroll 0 -208px;
+    z-index: 3;
+    padding-left: 3px;
+    /* set default width based on ON/OFF labels */
+    width: 94px;
+}
+
+/*
+.ibutton-handle-right {
+   height: 100%;
+   width: 100%;
+   padding-right: 3px;
+   background: transparent url(../../images/4/on_off.png) no-repeat scroll 100% -54px;
+   z-index: 3;
+}      */
+
+.ibutton-handle-middle {
+    height: 100%;
+    width: 100%;
+    background: transparent url(../../images/4/on_off.png) no-repeat scroll 50% -54px;
+    z-index: 3;
+}
+
+div.ibutton-label-on, div.ibutton-label-off {
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: bold;
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    cursor: inherit;
+    display: block;
+    height: 106px;
+    position: absolute;
+    width: auto;
+    top: 0;
+    padding-top: 5px;
+    overflow: hidden;
+    background: transparent url(../../images/4/on_off.png) no-repeat scroll 0 0;
+}
+
+div.ibutton-label-on {
+    color: #fff;
+    text-shadow: 0 -1px 2px rgba(0, 0, 0, 0.4);
+    left: 0;
+    padding-top: 5px;
+    z-index: 1;
+}
+
+div.ibutton-label-on span {
+    padding-left: 5px;
+}
+
+div.ibutton-label-off {
+    color: #7c7c7c;
+    background-position: 100% 0;
+    text-shadow: 0 -1px 2px rgba(153, 153, 153, 0.4);
+    text-align: right;
+    right: 0;
+    /* the off label needs to near the left edge (ideally just 5px away)
+     * it just needs to be close enough that it won't show under the handle if dragged to the left
+     */
+    width: 100%;
+}
+
+div.ibutton-label-off span {
+    padding-right: 5px;
+}
+
+/* create an outline when button gets focus via keyboard */
+.ibutton-container label {
+    cursor: inherit;
+    font-size: 40px !important;
+    line-height: 96px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.ibutton-focus label {
+    /* we must use border, since outline doesn't work in IE */
+    border: 1px dotted #666 !important;
+    padding: 0 2px;
+}
+
+.ibutton-focus div.ibutton-label-on span label {
+    /* use white for more contrast */
+    border-color: #fff !important;
+}
+
+/* add padding to right/left so that text gets clipped before absolute edge */
+.ibutton-padding-left, .ibutton-padding-right {
+    position: absolute;
+    top: 4px;
+    z-index: 2;
+    background: transparent url(../../images/4/on_off.png) no-repeat scroll 0 -4px;
+    width: 3px;
+    height: 106px;
+}
+
+.ibutton-padding-left {
+    left: 0;
+}
+
+.ibutton-padding-right {
+    right: 0;
+    background-position: 100% -4px;
+}
+
+/* change the styles of the handle when being dragged */
+.ibutton-active-handle .ibutton-handle {
+    background-position: 0 -108px;
+}
+
+.ibutton-active-handle .ibutton-handle-right {
+    background-position: 100% -108px;
+}
+
+.ibutton-active-handle .ibutton-handle-middle {
+    background-position: 50% -108px;
+}
+
+/* styles to use when the button is disabled */
+.ibutton-disabled {
+    cursor: not-allowed !important; /* cursor options: default or not-allowed */
+}
+
+.ibutton-disabled .ibutton-handle {
+    background-position: 0 -81px;
+}
+
+.ibutton-disabled .ibutton-handle-right {
+    background-position: 100% -81px;
+}
+
+.ibutton-disabled .ibutton-handle-middle {
+    background-position: 50% -81px;
+}
+
+.ibutton-disabled div.ibutton-label-on {
+    background-position: 0 -27px;
+}
+
+.ibutton-disabled div.ibutton-label-off {
+    background-position: 100% -27px;
+}
+
+.ibutton-disabled .ibutton-padding-left {
+    background-position: 0 -27px;
+}
+
+.ibutton-disabled .ibutton-padding-right {
+    background-position: 100% -27px;
+}
+
+.ibutton-disabled div.ibutton-label-on {
+    color: #fff;
+}
+
+.ibutton-disabled div.ibutton-label-off {
+    color: #cbcbcb;
+}
+
+/************************************* end of ckeckbox style ****************************************/
+
+.swipe_title {
+    font-size: 102px;
+    padding-top: 20px;
+}
+
+.swipe_title2 {
+    font-size: 160px;
+    padding-top: 200px;
+}
+
+.swipe_title3 {
+    font-size: 120px;
+    padding-top: 200px;
+}
+
+.switch_container {
+    margin-top: 10px;
+    width: 95%;
+    float: left;
+    margin-left: 3%;
+}
+
+.switch_block {
+    background: url(../../images/4/mumber_switch_bg.png) no-repeat;
+    height: 684px;
+    float: left;
+    margin-left: 3%;
+    position: relative;
+    width: 320px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.switch_block_icon {
+    cursor: pointer;
+    height: 290px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 280px;
+    z-index: 20;
+}
+
+.switch_block_icon1 {
+    background: url(../../images/4/tel_icon1.png) no-repeat;
+}
+
+.switch_block_icon2 {
+    background: url(../../images/4/my_mumber_icon.png) no-repeat;
+}
+
+.switch_block_icon3 {
+    background: url(../../images/4/tel_icon.png) no-repeat;
+}
+
+.switch_block_text {
+    font-size: 68px;
+    line-height: 70px;
+    top: 360px;
+    width: 295px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.credits_block_text {
+    font-size: 65px;
+    padding-left: 0px;
+    margin-top: 7px;
+    text-align: center !important;
+    width: 47% !important;
+}
+
+.bottom_menu_left_tab, .bottom_menu_mid_tab {
+
+}
+
+.bottom_menu_tab_sep {
+    background: url(../../images/4/bottom_menu_border.png) right no-repeat;
+    height: 200px;
+    float: left;
+    width: 4px;
+}
+
+.bottom_menu_tab {
+    font-size: 53px;
+    line-height: 197px;
+}
+
+#regButtonContainer {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#right_panel_title {
+    font-size: 68px;
+    line-height: 186px;
+    height: 186px;
+}
+
+.right_panel_with_arrow {
+    background: url("../../images/4/select_arrow_orange_back.png") no-repeat scroll left center transparent;
+    float: left;
+    height: 100px;
+    margin-left: 34px;
+    margin-top: -146px;
+    position: absolute;
+    width: 104px;
+}
+
+.right_panel_links {
+    background: url(../../images/4/select_arrow.png) right no-repeat;
+    background-position: 95%;
+    border-bottom: 2px solid #242A3A;
+    border-top: 2px solid #3F4655;
+    float: left;
+    font-size: 54px;
+    line-height: 163px;
+    padding-left: 6.5%;
+    height: 163px;
+    width: 92%;
+    margin-left: 1.5%
+}
+
+.activation_panel_text {
+    font-family: 'TheMixPlain';
+    font-size: 54px;
+    line-height: 76px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.activation_panel_text_bold {
+    font-family: 'TheMixExtraBoldPlain';
+    font-size: 54px;
+    display: inline-block;
+}
+
+.get_new_email_sms_link {
+    font-size: 54px;
+    margin-top: 58px;
+}
+
+.sms_activation_block {
+    margin-top: -100px;
+}
+
+.email_activation_block > div {
+    margin-top: 20px;
+}
+
+.terms_content_text_header {
+    font-size: 66px;
+    margin-top: -76px;
+    padding-left: 0px;
+    width: 900px;
+    position: relative;
+    z-index: 35;
+}
+
+.terms_content_text {
+    font-size: 46px;
+    padding: 50px;
+    line-height: 1.3;
+    width: 900px;
+}
+
+.left_right_navigator_container {
+    background: url(../../images/4/left_navigator.png) no-repeat;
+    height: 108px;
+    width: 808px;
+    position: relative;
+    top: -56px;
+}
+
+.left_right_navigator_container1 {
+    top: -185px;
+}
+
+.left_right_navigator_container a {
+    font-size: 42px;
+    line-height: 100px;
+    width: 404px;
+}
+
+.dww {
+    height: 560px !important;
+}
+
+.ios .dww .dw-li {
+    font-size: 96px !important;
+    height: 140px !important;
+    line-height: 0px !important;
+    padding-left: 20px;
+    position: relative;
+    top: 0;
+}
+
+.ios .dwwol {
+    top: 230px;
+    height: 140px;
+}
+
+.bottom_menu_panel {
+    border-top: 3px solid #67666D;
+    height: 200px;
+
+    bottom: 0px;
+}
+
+#gift_tickets_button_container a{
+    float: left;
+    display: block;
+    position: relative;
+    padding-left: 0px !important;
+
+}
+
+.see_gifts_bottom_menu {
+position: fixed;
+}
+
+.bottom_menu_span_active {
+    background: url("../../images/4/tab_arrow.png") no-repeat scroll center top !important;
+    height: 46px;
+    position: absolute;
+    top: -3px;
+}
+
+.gray_content_title_text {
+    font-size: 76px;
+    line-height: 20px;
+}
+
+.gray_content_title_text_padding {
+    padding-top: 20px;
+}
+
+.gray_content_inputs {
+    top: 40px;
+    float: left;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.remove_payment_details_button {
+    float: left;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.ticket_content_text_title {
+    font-size: 78px;
+}
+
+.ticket_content_text {
+    font-size: 54px;
+    line-height: 65px;
+    width: 100%;
+}
+
+.jackpot_block {
+    background: url("../../images/4/jackpot_img.png") no-repeat;
+    height: 122px;
+    padding-bottom: 0px;
+    width: 900px;
+    margin-top: -57px;
+}
+
+.pb55{
+    padding-bottom: 55px;
+}
+
+.jackpot_num_block {
+    float: left;
+    margin-top: -30px;
+    margin-left: 15px;
+}
+
+.jackpot_num_block1 {
+    margin-left: 110px;
+}
+
+.jackpot_num_block4 {
+    margin-left: 58px;
+}
+
+.num0, .num1, .num2, .num3, .num4, .num5, .num6, .num7, .num8, .num9{
+    background: url("../../images/4/numbers.png") no-repeat;
+    float: left;
+    height: 174px;
+    width: 106px;
+}
+
+.num0{
+    background-position: 0 0;
+    width: 106px;
+    height: 174px;
+}
+
+.num1{
+    background-position: 0 -176px ;
+    width: 106px;
+    height: 174px;
+}
+
+.num2{
+    background-position: 0 -352px ;
+    width: 106px;
+    height: 174px;
+}
+
+.num3{
+    background-position: 0 -530.0000610351562px ;
+    width: 106px;
+    height: 174px;
+}
+
+.num4{
+    background-position: 0 -709.0000610351562px ;
+    width: 106px;
+    height: 174px;
+}
+
+.num5{
+    background-position: 0 -886.0000610351562px ;
+    width: 106px;
+    height: 174px;
+}
+
+.num6{
+    background-position: 0 -1063.0000610351562px ;
+    width: 106px;
+    height: 174px;
+}
+
+.num7{
+    background-position: 0 -1242.0000610351562px ;
+    width: 106px;
+    height: 174px;
+}
+
+.num8{
+    background-position: 0 -1422.0000610351562px ;
+    width: 106px;
+    height: 174px;
+}
+
+.num9{
+    background-position: 0 -1600.3334350585938px ;
+    width: 106px;
+    height: 174px;
+}
+
+#historyRollerBlock {
+    height: 700px !important;
+}
+
+#historyRollerBlock .dww {
+    height: 800px !important;
+}
+
+#historyRollerBlock .dwwol {
+    display: none !important;
+}
+
+#historyRollerBlock .dw-ul {
+    top: -281px !important;
+}
+
+#historyRollerBlock .ios .dww .dw-li {
+    height: 150px !important;
+    line-height: 40px !important;
+    font-size: 40px !important;
+    padding-left: 20px;
+    position: relative;
+    top: 0;
+}
+
+#historyRollerBlock .ios .dwsc .dww {
+    background: #fff !important;
+    border-radius: 30px !important;
+    border-left: 4px black solid;
+    border-right: 4px black solid;
+}
+
+.select_gap {
+    height: 585px;
+}
+
+.buttonsBlock {
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+}
+
+.buttonsBlock a {
+    font-size: 40px;
+    font-family: 'TheMixBoldPlain';
+    padding: 46px 30px;
+    background: url("../../images/4/select_arrow.png") no-repeat;
+    background-position: right;
+    margin-right: 17px;
+}
+
+.text_block {
+    font-family: 'TheMixPlain';
+    font-size: 41px;
+    line-height: 55px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.credit_img_block {
+    background: url("../../images/4/clock_img.png") no-repeat 221px center;
+    float: left;
+    height: 68px;
+    width: 100%;
+    margin-bottom: 41px;
+    margin-left: 0px;
+}
+
+.credit_num_block {
+    float: left;
+    margin-top: -30px;
+    margin-left: -7px;
+}
+
+.credit_num_block1 {
+}
+
+.credit_num_block4, .credit_num_block6 {
+    margin-left: 24px;
+}
+
+.credits0, .credits1, .credits2, .credits3, .credits4, .credits5, .credits6, .credits7, .credits8, .credits9 {
+    background: url("../../images/4/credits.png") no-repeat;
+    width: 79px;
+    height: 112px;
+}
+
+.credits0 {
+    background-position: 0 -6px;
+}
+
+.credits1 {
+    background-position: 0 -119px ;
+}
+
+.credits2 {
+    background-position: 0 -232px ;
+}
+
+.credits3 {
+    background-position: 0 -345px ;
+}
+
+.credits4 {
+    background-position: 0 -458px ;
+}
+
+.credits5 {
+    background-position: 0 -572px ;
+}
+
+.credits6 {
+    background-position: 0 -686px ;
+}
+
+.credits7 {
+    background-position: 0 -800px ;
+}
+
+.credits8 {
+    background-position: 0 -916px ;
+}
+
+.credits9 {
+    background-position: 0 -1030px ;
+}
+
+
+#historyRollerBlock .ios .dww .dw-li {
+    height: auto !important;
+}
+
+.history_description {
+    color: #333 !important;
+    padding-left: 40px;
+    font-size: 57px;
+    line-height: 80px;
+}
+
+.history_date {
+    color: #333 !important;
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.my_mumber_footer_buttons {
+    margin-left: 8px;
+    margin-top: 0px;
+}
+
+.purple_btn_mid, .black_btn_mid {
+    font-size: 48px !important;
+    line-height: 140px !important;
+}
+
+.smallblack_btn_mid {
+    font-size: 27px !important;
+    line-height: 91px !important;
+}
+
+.history_amount {
+    color: #4D4D4D !important;
+    font-size: 35px;
+    top: -30px;
+    margin-right: 16px;
+}
+
+.five_tickets_title {
+    font-size: 55px !important;
+    margin-top: 0px !important;
+    line-height: 61px !important;
+}
+
+.gift_tickets_title {
+    line-height: 61px !important;
+}
+
+.history_title {
+    font-size: 58px;
+    margin-top: 25px;
+    line-height: 99px;
+}
+
+.activate_jackpot_title {
+    font-size: 56px;
+    margin-top: 12px;
+    line-height: 43px;
+    color: #fff;
+    font-family: 'TheMixExtraBoldPlain';
+    position: relative;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 0px 2px 0px;
+}
+
+#settingsContainer {
+
+}
+
+.country-flag {
+    position: relative;
+    top: -1px;
+    background: url(../../images/4/flag_arrow.png) no-repeat 195px 51px;
+}
+
+.phone-prefix {
+    top: -1px;
+    left: 14px;
+    font-size: 55px;
+    line-height: 86px;
+}
+
+.country-flag img {
+    margin-bottom: -15px;
+}
+
+.settings_field, .settings_field_data {
+    font-size: 64px;
+    line-height: 140px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.settings_field_data {
+    max-width: 489px;
+}
+
+.settings_field_input {
+    background: none repeat scroll 0 0 transparent !important;
+    color: #4D4D4D;
+    font-family: 'MyRiadPro';
+    font-size: 64px;
+    height: 140px;
+    line-height: 140px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 96%;
+}
+
+.payment_details_title {
+    font-size: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.payment_container_field {
+    font-size: 64px;
+    line-height: 140px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.payment_container_rows {
+    background: url("../../images/4/select_arrow.png") no-repeat 97% center;
+}
+
+.dw-trans, .ios, .dw-inline, .dw-moz {
+    top: 170px !important;
+}
+
+.topup_credits .dw-trans, .ios, .dw-inline, .dw-moz {
+    top: 218px !important;
+}
+
+.input_select_arrow {
+    right: -34px;
+    top: -342px;
+}
+
+.input_cb_div_container {
+    right: -31px;
+    top: 25px;
+}
+
+.settings_container_rows .input_cb_div_container {
+    right: 21px;
+}
+
+.activation_content_block {
+    top: 61px;
+}
+
+.activation_content_block_change_password {
+    top: 56px;
+}
+
+.activation_content_block_change_phone {
+    top: 23px;
+}
+
+.change_email_title {
+    font-size: 59px !important;
+    line-height: 74px !important;
+}
+
+.account_activate_text {
+    font-size: 71px;
+    line-height: 100px;
+}
+
+.history_roller_block {
+    top: -270px;
+}
+
+.register_block_container {
+    padding-left: 17%;
+}
+
+.input_link_arrow {
+    right: -100px;
+    top: 35px
+}
+
+.payment_page_title {
+    line-height: 45px;
+}
+
+.verify_changes {
+    top: 23px;
+}
+
+.text_block_white {
+    font-size: 48px;
+    line-height: 64px;
+    margin-top: 54px;
+}
+
+.input_info_tip {
+    background: url("../../images/4/info_icon_input.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 95px;
+    position: relative;
+    right: 402px;
+    top: -125px;
+    width: 90px;
+}
+
+.roller_small {
+    margin-top: -200px;
+}
+
+.roller_small .dw-ul{
+    margin-top: -115px;
+}
+
+.roller_small .ios .dwwol {
+    top: 105px;
+}
+
+.roller_small .dww {
+    height: 348px !important;
+}
+
+.roller_small .dw-bf {
+    /*margin-top: -115px;*/
+}
+
+.select_gap_small {
+    height: 616px;
+}
+
+#gift_tickets_button_container > div {
+    margin-bottom: 8px;
+    float: left;
+}
+
+#gift_tickets_button_container {
+    margin-left: 57px;
+    margin-top: 95px;
+}
+
+.activation_code_block {
+    margin-top: -64px;
+}
+
+.activate_code_btn_div {
+    margin-top: 50px;
+    float: left;
+}
+
+.statuses_container .status_won {
+    background: url("../../images/4/mobile_win_icon.png") no-repeat 97%;
+}
+
+.statuses_container .status_not_active_remind {
+    background: url("../../images/4/mobile_lost_icon.png") no-repeat 97%;
+}
+
+.statuses_container .status_not_active {
+    background: url("../../images/4/mobile_inactive_icon.png") no-repeat 97%;
+}
+
+.statuses_container .status_play {
+    background: url("../../images/4/mobile_play_icon.png") no-repeat 97%;
+}
+
+.statuses_container .status_lost {
+    background: url("../../images/4/mobile_lost_icon.png") no-repeat 97%;
+}
+
+.background2 {
+    background: url("../../images/4/background2.jpg") no-repeat 50%;
+    width: 100%;
+    height: 1650px;
+    background-size: 100%;
+}
+
+.no_internet_height {
+    height: 1584px;
+}
+
+.internal_error_height {
+    height: 1584px;
+}
+
+#restartAppButtonContainer {
+    padding-top: 100px;
+    padding-bottom: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+
+.no_internet_footer {
+    position: relative;
+    float: left;
+    top: 0px;
+}
+
+.no_internet_text {
+    position: absolute;
+    bottom: 21%;
+    z-index: 2;
+    font-size: 70px;
+}
+
+.statuses_container ul {
+    margin: 30px 29px;
+    font-size: 40px;
+    border-radius: 30px;
+}
+
+.statuses_container ul li {
+    height: 149px;
+}
+
+.statuses_container ul li span {
+    padding: 10px 30px;
+}
+
+.statuses_container ul li h3 {
+    font-size: 51px;
+}
+
+.statuses_container button {
+    float: right;
+    margin-right: 16%;
+    padding: 18px 33px;
+    margin-top: 5%;
+    font-size: 26px;
+}
+
+.statuses_container .select_friend {
+    background: url("../../images/4/select_arrow.png") no-repeat 97%;
+}
+.statuses_container ul li.select_friend span h3 {
+    line-height: 160px;
+    color: #64635c;
+}
+
+
+.statuses_container ul {
+    font-family: TheMixPlain;
+}
+
+.send_message_block textarea{
+    background: none repeat scroll 0 0 #FFFDEC;
+    border: 1px solid #525257;
+    border-radius: 17px 17px 17px 17px;
+    box-shadow: 0 0 10px #000000 inset;
+    font-family: TheMixPlain;
+    font-size: 48px;
+    height: 1100px;
+    margin-bottom: 55px;
+    margin-left: 28px;
+    margin-top: 40px;
+    padding: 26px 27px;
+    resize: none;
+    width: 88% !important;
+}
+
+.activation_content_block_change_password .inpMiddle input{
+    font-size: 55px;
+}
+
+.topup_bottom_text {
+    top: 56px;
+    line-height: 80px !important;
+}
+
+.happy_receiver_text {
+    padding-top: 84px;
+}
+
+.footer_text {
+    color: #231F20;
+    font: 64px/1 'LucidaGrande';
+    top: 25%;
+    position: relative;
+    text-align: center;
+    float: left;
+}
+
+.see_friend_button {
+    margin-top: 9px;
+}
+
+/* 2nd css folder */
+.border_radius_graph_holder{
+    position: relative;
+
+}
+
+.br_bot{
+    position: absolute;
+    left: 32px;
+    bottom: -337px;
+    background: url("../../images/4/br_bot.png") no-repeat;
+    width: 1008px;
+    height: 44px;
+    z-index: 34;
+}
+
+.br_top {
+    position: absolute;
+    left: 32px;
+    top: 232px;
+    background: url("../../images/4/br_top.png") no-repeat;
+    width: 1008px;
+    height: 44px;
+    z-index: 30;
+}
+
+.history_amount span {
+    font-size: 29px;
+    font-weight: 200;
+}
+
+#historyRollerBlock .dwwl {
+    background: none !important;
+    border: none !important;
+    width: 1012px;
+    margin-left: 3px;
+}
+
+.safety_limit_arrow {
+    height: 70px !important;
+}
+
+.footer_height {
+    clear: both;
+    height: 150px;
+}
+
+.registration_placeholders {
+    height: 170px !important;
+    line-height: 110px !important;
+}
+
+.gift_receiver_block textarea {
+    font-size: 65px !important;
+    margin-left: 30px !important;
+}
+
+#mumberLogo {
+    top:20px !important;
+    width: 500px !important;
+}
+
+.ios .dw .dwb {
+    font-size: 60px !important;
+    height: 95px !important;
+    line-height: 71px !important;
+    margin-top: 10px !important;
+    padding: 0 70px !important;
+}
+
+.ios .dw .dwbc {
+    height: 110px !important;
+    top: -160px !important;
+}
+
+.gift_message_link {
+    margin-right: 160px;
+    font-size: 61px !important;
+}
+
+/*.dww {*/
+/*bottom: 70px !important;*/
+/*}*/
+
+/* 4th css folder */
