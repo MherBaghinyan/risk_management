@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-    <title>Դրամական հոսքեր</title>
+    <title>Ռիսկերի գնահատում</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -35,11 +35,7 @@
                     $('#evaluationContainer').append("<div id='evaluationTitle'>"+$(this).val()+"</div><div id='valueContainer'>"+''+"</div>");
                     return $(this).val();});
             });
-            $('#selectAll').click(function () {
-                var isChecked = false;
-                isChecked = $('#selectAll').is(':checked') ? true : false;
-                $('#riskCheckboxes input:checkbox').prop('checked', isChecked);
-            });
+
         });
     </script>
     <noscript>
@@ -61,7 +57,7 @@
                     <h1><a href="index.html" id="logo" class="current-page-item">Գլխավոր ցանկ</a></h1>
                     <nav id="nav">
                         <a href="risk_choices.html">Ռիսկերի գնահատում</a>
-                        <a href="cash_flow.html">Դրամական հոսքեր</a>
+                        <a href="report_links.html">Հաշվետվություններ</a>
                     </nav>
                 </header>
 
@@ -72,43 +68,23 @@
 <div id="main">
     <div class="container">
         <div class="row main-row">
-            <div class="4u">
+            <div class="8u">
 
-            </div>
-            <div class="8u skel-cell-important">
+                <section class="left-content">
+                    <h2>Ընտրել ռիսկի տեսակը</h2>
+                    <div id="leftContent">
+                        <div class="content">
+                            <img class="content_block1 content_black_border">
+                            <div class="terms_content_text_header">
 
-                <section class="right-content">
-                    <h2>Կառուցել դինամիկ մոդելը</h2>
-                    <p><h4 style="color: #007897 !important;">Ներմուծել անհրաժեշտ տվյալները</h4></p>
-                    <p>
-                    <div class="terms_content_text_header">
-									<span id="riskCheckboxes">
-                                    <div class="div_input" style="float: left">
-                                       Վիճակագրական տվյալների քանակը` n= <input type="text" name="number" value="30"> <br>
-                                       Հաշվարկի սկզբնակետը՝ to= <input style="border-color: #007897; border-radius: 6px;" type="date" value="11/11/2014"> <br>
-                                       Փոփոխման պարբերությունը՝ <input type="text" name="sequence" value="1"> <br>
-                                        <input class="button" style=" line-height: 1px; font-size: 18px; margin-top: 20px !important;" type="button"  value="Կառուցել մոդելը N=1 խորությամբ" > <br>
-                                        <input class="button" style=" line-height: 1px; font-size: 18px; margin-top: 40px !important;" type="button"  value="Որոշել խորությունը և կառուցել մոդելը"> <br>
-                                    </div>
-									</span>
+							</div>
                         </div>
-                    </p>
+                        <div id="evaluationContainer">
+                        </div>
+                    </div>
                 </section>
 
             </div>
-            <div class="8u skel-cell-important">
-                <section class="right-content">
-                    <p>
-                    <div class="div_input div_input terms_content_text_header">
-                        <img style="width: 600px" class="content_block1 content_black_border">
-                        Մոդելը և նրա համարժեքությունը <br>
-                        aj= <input type="number" name="number" value="1.2">
-                        bj= <input type="number" value="5.1">
-                        Համարժեքությունը՝ <input type="number"  value="0.9">
-                    </div>
-                    </p>
-                </section>
-                </div>
         </div>
     </div>
 </div>

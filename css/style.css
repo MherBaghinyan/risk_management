@@ -170,9 +170,7 @@ a.ui-slider-handle-snapping {
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="date"] {
-    background: transparent;
-    border: none;
-    outline: none;
+
     color: #404040;
     font-family: 'TheMixPlain';
 }
@@ -582,6 +580,15 @@ input[type="text"][disabled] {
     color: black;
 }
 
+.div_input > input[type="text"],input[type="number"] {
+    width: 40px !important;
+    border-color: #007897;
+    border-left-color: #007897;
+    border-top-color: #007897;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
 .jackpot_block img {
     left: 20%;
     position: absolute;
@@ -739,6 +746,11 @@ input[type="text"][disabled] {
     border-style: solid;
     border-width: 5px;
     height: 283px;
+}
+
+.report_navigator_link > a{
+    display: block;
+    float: left;
 }
 
 .left_right_navigator_container a {
