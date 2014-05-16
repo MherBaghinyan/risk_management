@@ -1804,3 +1804,16 @@ html {
 	}
 
 
+    .report_table {
+        border: solid 3px;
+        border-color: #007897;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+    }
+
+.report_table td, th {
+    border: 1px solid;
+    padding:4px;
+}
+
+
